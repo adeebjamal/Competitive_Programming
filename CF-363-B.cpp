@@ -10,7 +10,7 @@ int main() {
         nums.push_back(num);
     }
     int sum=INT_MAX, answer_index=0, current_sum=0;
-    for(int i=0; i<min(n,k); i++) {
+    for(int i=0; i<k; i++) {
         current_sum+= nums[i];
     }
     if(current_sum < sum) {
